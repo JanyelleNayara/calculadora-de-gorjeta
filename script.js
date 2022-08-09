@@ -21,6 +21,11 @@ function calculateValue(event){
 
 }
 
+function resetValue(event){
+    event.preventDefault();
+    
+}
+
 document.getElementById('total').style.display = 'none';
 document.getElementById('value').style.display = 'none';
 
