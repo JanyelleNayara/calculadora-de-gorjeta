@@ -22,8 +22,8 @@ function calculateValue(event){
 }
 
 function resetValue(event){
-    event.preventDefault();
-    
+    document.getElementById('total').style.display = 'none';
+    document.getElementById('each').style.display = 'none';
 }
 
 document.getElementById('total').style.display = 'none';
